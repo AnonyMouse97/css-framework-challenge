@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
 	<title>Star Warzz</title>
 </head>
-
 <body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
 	<header class="container">
 
-		<div class="row bg-secondary text-white p-5">
+		<div class="row bg-secondary text-white p-4">
 			<div class="col">
 				<img src="img/logo.png" class="img-fluid" alt="">
 			</div>
@@ -21,9 +26,9 @@
 			</div>
 		</div>
 
-		<div class="row bg-secondary text-white p-5">
+		<div class="row bg-secondary text-white">
 			<div class="col-sm">
-				<div class="container">
+				<div class="container pb-4">
 					<h1>Star Warzzzz</h1>
 					<p>Do you think a simple webpage can destroy such an universe as Star Wars ?</p>
 					<ul>
@@ -44,40 +49,31 @@
 
 
 
-		<div class="row text-secondary border border-secondary  p-4">
-			<div class="col-sm-2">
+		<div class="row text-secondary border border-secondary text-center p-4">
+			<div class="col-sm-4">
 				<img src="img/logo.png" class="img-fluid" alt="">
 			</div>
-			<div class="col-sm-10">
+			<div class="col-sm-8">
+				<nav class="navbar navbar-expand-sm navbar-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupported" aria-controls="navbarSupported" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span></button>
 
-
-
-				<div class="">
-					<nav class="navbar navbar-expand-sm navbar-light">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupported" aria-controls="navbarSupported" aria-expanded="false" aria-label="Toggle navigation">
-    					<span class="navbar-toggler-icon"></span></button>
-
-						<div class="collapse navbar-collapse" id="navbarSupported">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item">
-									<a href="" class="nav-link">Our Team</a></li>
-								<li class="nav-item">
-									<a href="" class="nav-link">Inspiration</a></li>
-								<li class="nav-item">
-									<a href="" class="nav-link">Testimonials</a></li>
-								<li class="nav-item">
-									<a href="" class="nav-link">More</a></li>
-							</ul>
-							<button class="btn btn-danger rounded-pill navbar-btn">press for Jar-Jar</button>
-						</div>
-						
-					</nav>
-				</div>
-				
-
-
-
-
+					<div class="collapse navbar-collapse" id="navbarSupported">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a href="" class="nav-link">Our Team</a></li>
+							<li class="nav-item">
+								<a href="" class="nav-link">Inspiration</a></li>
+							<li class="nav-item">
+								<a href="" class="nav-link">Testimonials</a></li>
+							<li class="nav-item">
+								<a href="" class="nav-link">More</a></li>
+							<li>
+								<button class="btn btn-danger rounded-pill navbar-btn">press for Jar-Jar</button>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
 		</div>
 	</header>
@@ -93,7 +89,7 @@
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, culpa, quos. Saepe ipsam doloremque deleniti libero aspernatur modi suscipit itaque?
 					</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 text-center">
 					<img src="img/jarjar.jpg" alt="" class="img-fluid">
 				</div>
 			</div>
@@ -191,7 +187,7 @@
 				</div>
 				<div class="col-sm text-center">
 					<img src="img/quigon.jpg" alt="" class="img-fluid">
-					<i>"Discover how me and my friend George sold our license to a mouse"</i>
+					<i>"Discover how me and my friend George became millionaires by selling a franchise to a mouse"</i>
 					<p class="text-secondary">Qui-Gon</p>
 				</div>
 			</div>
@@ -219,7 +215,7 @@
 				</div>
 				<div class="col-sm-8">
 					<p class="text-danger">Lorem ipsum, dolor.</p>
-					<h3 class="text-primary">The daily battle of Leia against strabismus</h3>
+					<h3 class="text-primary">The daily struggle of Leia against strabismus</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, culpa, quos. Saepe ipsam doloremque deleniti libero aspernatur modi suscipit itaque?
 					</p>
@@ -228,7 +224,7 @@
 			<div class="row">
 				<div class="col-sm-8">
 					<p class="text-danger">Lorem ipsum, dolor.</p>
-					<h3 class="text-primary">Why has the dark side more groove ?</h3>
+					<h3 class="text-primary">Why is the dark side more groovy ?</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, culpa, quos. Saepe ipsam doloremque deleniti libero aspernatur modi suscipit itaque?
 					</p>
